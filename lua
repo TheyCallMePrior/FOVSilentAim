@@ -1,3 +1,10 @@
+game.StarterGui:SetCore("SendNotification", {
+    Title = "Bunnyware";
+    Text = "Please wait...";
+    Duration = 15;
+})
+wait(3)
+
 if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Services
