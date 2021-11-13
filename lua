@@ -1,10 +1,3 @@
-game.StarterGui:SetCore("SendNotification", {
-    Title = "Bunnyware";
-    Text = "Please wait...";
-    Duration = 15;
-})
-wait(3)
-
 if getgenv().Aiming then return getgenv().Aiming end
 
 -- // Services
@@ -44,8 +37,8 @@ local tableinsert = table.insert
 getgenv().Aiming = {
 	Enabled = true,
 
-	ShowFOV = false,
-	FOV = 70,
+	ShowFOV = true,
+	FOV = 50,
 	FOVSides = 300,
 	FOVColour = Color3fromRGB(255, 0, 0),
 
